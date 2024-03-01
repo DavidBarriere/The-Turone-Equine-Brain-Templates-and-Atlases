@@ -25,4 +25,18 @@ Using this methodology we developed :
 The TEBTA resources have been organized as five main sections : anatomy, functional, diffusion, computed tomography (CT), atlas.
 
   ### Anatomical Imaging
-  In this section a set of templates, priors and brain masks is available for ex-vivo and in-vivo data normalization
+In this section a set of templates, priors and brain mask is available for in-vivo data normalization of the equine brain.
+T1-weighted template + associated probabilistics maps (GM, WM, CSF) + brain mask.
+  
+  Spatial resolution 0.8x0.8x0.8mm.
+  
+      t1.nii.gz
+      prob01.nii.gz
+      prob02.nii.gz
+      prob03.nii.gz
+      mask.nii.gz
+
+
+
+
+
