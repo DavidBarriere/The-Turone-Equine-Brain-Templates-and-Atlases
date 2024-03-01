@@ -1,5 +1,14 @@
 # The Turone Equine Brain Templates and Atlases
 
+
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10731031.svg)](https://doi.org/10.5281/zenodo.10731031)
+
+
+
+
+
 The current document is a short description of the first version of the Turone Equine Brain Templates and Atlases resources (TEBTA) dedicated to equine brain MRI data analysis. 
 For a full description of the resources and the methodologies used to create them please consult the main publication [Valenchon M et al 2024].
 
