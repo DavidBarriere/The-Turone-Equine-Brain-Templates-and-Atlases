@@ -25,7 +25,8 @@ Using this methodology we developed :
 The TEBTA resources have been organized as five main sections : anatomy, functional, diffusion, computed tomography (CT), atlas.
 
   ### Anatomical Imaging
-In this section a set of templates, priors and brain mask is available for in-vivo data normalization of the equine brain.
+In this section a set of templates, priors and brain mask is available for spatial normalization and analysis of anatomical MRI data dedicated to the equine brain.
+
 T1-weighted template + associated probabilistics maps (GM, WM, CSF) + brain mask.
   
   Spatial resolution 0.8x0.8x0.8mm.
@@ -36,7 +37,60 @@ T1-weighted template + associated probabilistics maps (GM, WM, CSF) + brain mask
       prob03.nii.gz
       mask.nii.gz
 
+  ### Functional Imaging
+In this section a set of templates, priors and brain mask is available for spatial normalization and analysis of functional MRI data dedicated to the equine brain.
 
+T1-weighted template + associated probabilistics maps (GM, WM, CSF) + brain mask.
 
+  Spatial resolution 1.6x1.6x1.6mm.
+  
+      t1.nii.gz
+      prob01.nii.gz
+      prob02.nii.gz
+      prob03.nii.gz
+      mask.nii.gz
 
+  ### Diffusion Imaging
+In this section a set of templates, priors and brain mask is available for spatial normalization and analysis of diffusion MRI data dedicated to the equine brain.
 
+T2-weighted template + fa template + RGB template + brain mask.
+
+  Spatial resolution 2x2.4x2mm.
+  
+      t2.nii.gz
+      rgb.nii.gz
+      fa.nii.gz
+      mask.nii.gz
+
+  ### Computed Tomography Imaging (CT)
+In this section a template and an atlas of head is available for spatial normalization and analysis of CT data and list of 8 labels created in ITKSnap Format
+
+CT template + atlas + labels.
+
+  Spatial resolution 1x1x1mm.
+  
+      ct.nii.gz
+      atlas.nii.gz
+      labels.nii.gz
+
+  ### Brain Atlases (CT)
+In this an atlas of the equine brain is available with a list of 115 labels created in ITKSnap Format.
+
+Additionally, a fiber brain atlas is available in "dwi-equine-fiber-atlas" folder.
+
+  Spatial resolution 0.8x0.8x0.8mm.
+  
+      atlas_labels.txt
+      atlas.nii.gz
+      dwi-equine-fiber-atlas/dwi-equine-brain.gii
+      dwi-equine-fiber-atlas/dwi-equine-fiber-atlas.bundles
+      dwi-equine-fiber-atlas/dwi-equine-fiber-atlas.bundlesdata
+      dwi-equine-fiber-atlas/dwi-equine-fiber-atlas.hie
+
+## Important Note
+TEBTA ressources are provided at the scanner resolution and are oriented in anterior commisure/posterior commisure axis. Center of the images have been set at the anterior commisure level (Bregma 0 mm).
+
+For any questions regarding the TEBTA ressource, please email David A. Barrière (david.barriere@cnrs.fr).
+
+# REFERENCES
+Valenchon M et al 2024 is currently under review (01/03/2024).
