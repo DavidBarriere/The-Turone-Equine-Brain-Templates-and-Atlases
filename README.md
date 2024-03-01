@@ -22,6 +22,7 @@ Using this methodology we developed :
 
 ## Organisation of the TEBTA resources
 
-The TEBTA resources have been organized as five sections : anatomy, functional, diffusion, computed tomography (CT), atlas.
+The TEBTA resources have been organized as five main sections : anatomy, functional, diffusion, computed tomography (CT), atlas.
 
-  ### Head templates
+  ### Anatomical Imaging
+  In this section a set of templates, priors and brain masks is available for ex-vivo and in-vivo data normalization
